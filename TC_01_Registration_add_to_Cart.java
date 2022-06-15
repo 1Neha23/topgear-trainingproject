@@ -15,12 +15,12 @@ public class TC_01_Registration_add_to_Cart {
 		driver.findElement(By.xpath("//*[@id=\"top-links\"]/ul/li[2]/a/span[2]")).click();
 		driver.findElement(By.xpath("//*[@id=\"top-links\"]/ul/li[2]/ul/li[1]/a")).click();
 		Thread.sleep(3000);
-		driver.findElement(By.name("firstname")).sendKeys("Anas");
-		driver.findElement(By.name("lastname")).sendKeys("Ali");
-		driver.findElement(By.name("email")).sendKeys("Anaskevin4554@gmail.com");
+		driver.findElement(By.name("firstname")).sendKeys("Neha");
+		driver.findElement(By.name("lastname")).sendKeys("yadav");
+		driver.findElement(By.name("email")).sendKeys("neha4554@gmail.com");
 		driver.findElement(By.name("telephone")).sendKeys("1234567899");
-		driver.findElement(By.name("password")).sendKeys("anas@wipro");
-		driver.findElement(By.name("confirm")).sendKeys("anas@wipro");
+		driver.findElement(By.name("password")).sendKeys("neha@wipro");
+		driver.findElement(By.name("confirm")).sendKeys("neha@wipro");
 		driver.findElement(By.name("agree")).click();
 		driver.findElement(By.xpath("//*[@id=\"content\"]/form/div/div/input[2]")).click();
 		driver.findElement(By.xpath("//*[@id=\"content\"]/p[4]/a")).click();
